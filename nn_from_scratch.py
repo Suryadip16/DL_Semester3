@@ -1,6 +1,4 @@
 import numpy as np
-import math
-import pandas as pd
 
 
 def loss_fn(y_hat, y):
@@ -54,6 +52,3 @@ for i in range(num_iterations):
         w = new_w
 
 print(loss)
-
-
-
